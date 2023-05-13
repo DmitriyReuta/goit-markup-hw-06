@@ -694,9 +694,7 @@ img {
 }
 
 .agreement-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   appearance: none;
   width: 16px;
   height: 16px;
@@ -706,7 +704,6 @@ img {
 }
 
 .agreement-checkbox:checked {
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(../images/vector-agreement.svg);

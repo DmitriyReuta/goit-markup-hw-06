@@ -561,12 +561,10 @@ img {
 
 .sub-button {
   position: relative;
+  display: flex;
   width: 165px;
   height: 40px;
-  margin-left: 23px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  margin-left: 24px;
   padding: 8px 24px;
   border: none;
   cursor: pointer;
@@ -575,6 +573,10 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color var(--duration) var(--bazier);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
 }
 
 .sub-button:hover {
@@ -592,11 +594,17 @@ img {
   color: var(--white-color);
 }
 
+.sub-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-icon {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   right: 25px;
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
 /* Modal window form */
@@ -864,7 +872,7 @@ img {
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 24px;
-  padding-top: 48px;
+  padding-top: 72px;
   width: 408px;
   min-height: 576px;
   height: 584px;
